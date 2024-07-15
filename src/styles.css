@@ -1,0 +1,64 @@
+/* styles.css */
+
+/* styles.css */
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-image: url('assets/weather1.jpg'); /* Add the path to your sunny image */
+}
+
+h1, h2 {
+  color: #fff;
+}
+
+.container {
+  background-color: rgba(223, 50, 50, 0.5);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 400px;
+  text-align: center;
+}
+
+input {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #816060;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.weather-info {
+  margin-top: 20px;
+}
+
+.weather-info p {
+  margin: 5px 0;
+}
+
+.loading {
+  font-size: 18px;
+  color: #fff;
+}
